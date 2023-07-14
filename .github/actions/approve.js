@@ -7,7 +7,7 @@ async function run() {
 
   // event payload
   const payload = require(process.env.GITHUB_EVENT_PATH);
-  const approvedComments = ['LGTM', 'Approved', 'Ready for merge'];
+  const approvedComments = ['Approved!'];
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
 
   const isOwnerComment = payload.comment.author_association === 'OWNER';
