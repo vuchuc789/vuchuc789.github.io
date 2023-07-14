@@ -15,12 +15,20 @@ async function run() {
 
   if (isOwnerComment && isApprovedComment) {
     // Approve the pull request
-    await octokit.pulls.createReview({
+    const res = await octokit.pulls.createReview({
       owner: payload.repository.owner.login,
       repo: payload.repository.name,
       pull_number: payload.issue.number,
       event: 'APPROVE',
     });
+
+    console.log({
+      owner: payload.repository.owner.login,
+      repo: payload.repository.name,
+      pull_number: payload.issue.number,
+      event: 'APPROVE',
+    });
+    console.log(res);
   }
 }
 
