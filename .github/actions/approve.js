@@ -13,6 +13,10 @@ async function run() {
   const isOwnerComment = payload.comment.author_association === 'OWNER';
   const isApprovedComment = approvedComments.includes(payload.comment.body);
 
+  console.log(payload);
+  console.log(payload.comment.author_association);
+  console.log(payload.comment.body);
+
   if (isOwnerComment && isApprovedComment) {
     const { data } = await octokit.rest.pulls.createReview({
       owner,
@@ -21,7 +25,6 @@ async function run() {
       event: 'APPROVE',
     });
 
-    console.log(payload);
     console.log(data);
   }
 }
