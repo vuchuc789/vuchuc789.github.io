@@ -21,7 +21,7 @@ async function run() {
     const { data } = await octokit.rest.pulls.createReview({
       owner,
       repo,
-      pull_number: payload.pull_request.number,
+      pull_number: payload.issue.number,
       event: 'APPROVE',
     });
 
