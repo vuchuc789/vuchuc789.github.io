@@ -2,7 +2,7 @@
 
 const { Octokit } = require('@octokit/action');
 
-try {
+async function run() {
   const octokit = new Octokit();
 
   // event payload
@@ -21,9 +21,12 @@ try {
       event: 'APPROVE',
     });
 
+    console.log(payload);
     console.log(data);
   }
-} catch (e) {
+}
+
+run().catch((e) => {
   console.error(e);
   process.exit(1);
-}
+});
