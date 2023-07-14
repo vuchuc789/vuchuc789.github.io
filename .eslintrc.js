@@ -21,6 +21,9 @@ const config = {
       files: ['./**/*.js'],
     },
   ],
+  rules: {
+    '@typescript-eslint/no-var-requires': 'off',
+  },
 };
 
 module.exports = config;
