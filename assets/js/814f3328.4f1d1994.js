@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvuchuc_789_github_io=self.webpackChunkvuchuc_789_github_io||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My first blog","permalink":"/blog/my-first-blog"}]}')}}]);

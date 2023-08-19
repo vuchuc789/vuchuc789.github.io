@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvuchuc_789_github_io=self.webpackChunkvuchuc_789_github_io||[]).push([[713],{3457:u=>{u.exports=JSON.parse('[{"label":"blog","permalink":"/blog/tags/blog","count":1}]')}}]);
