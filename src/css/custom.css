@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset var(--ifm-global-shadow-lw);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-emphasis-700);
+}
