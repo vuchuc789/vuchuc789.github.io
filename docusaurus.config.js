@@ -80,6 +80,8 @@ const config = {
         logo: {
           alt: "Chức's Blog Logo",
           src: 'img/logo.svg',
+          width: 32,
+          height: 32,
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left' },
