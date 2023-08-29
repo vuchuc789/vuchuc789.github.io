@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 613.9258111016225 165.71359940407189" width="613.9258111016225" height="165.71359940407189">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="613.9258111016225" height="165.71359940407189" fill="transparent"></rect><g stroke-linecap="round"><g transform="translate(121.9163303073492 132.38026607073857) rotate(0 -56.199348026141706 -60.92856987752026)"><path d="M-0.48 0.52 C-14.49 -3.89, -66.66 -4.73, -85.24 -25.22 C-103.81 -45.7, -107.35 -106.48, -111.92 -122.38" stroke="currentColor" stroke-width="4.5" fill="none" stroke-dasharray="8 12"></path></g><g transform="translate(121.9163303073492 132.38026607073857) rotate(0 -56.199348026141706 -60.92856987752026)"><path d="M-96.16 -94.36 C-103.7 -105.89, -108.27 -113.59, -112.77 -124.43" stroke="currentColor" stroke-width="4.5" fill="none"></path></g><g transform="translate(121.9163303073492 132.38026607073857) rotate(0 -56.199348026141706 -60.92856987752026)"><path d="M-116.36 -90.79 C-118.73 -103.17, -118.1 -111.79, -112.77 -124.43" stroke="currentColor" stroke-width="4.5" fill="none"></path></g></g><mask></mask><g transform="translate(145.24966364068496 110.71359940407189) rotate(0 229.33807373046875 22.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="currentColor" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Here is Docusaurus's logo</text></g></svg>
