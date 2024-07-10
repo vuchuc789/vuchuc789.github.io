@@ -11,6 +11,9 @@ dependencies:
   '@docusaurus/preset-classic':
     specifier: 3.4.0
     version: 3.4.0(@algolia/client-search@4.24.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(search-insights@2.15.0)(typescript@5.2.2)
+  '@docusaurus/theme-classic':
+    specifier: ^3.4.0
+    version: 3.4.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(typescript@5.2.2)
   '@mdx-js/react':
     specifier: ^3.0.0
     version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
@@ -37,6 +40,9 @@ devDependencies:
   '@docusaurus/types':
     specifier: 3.4.0
     version: 3.4.0(react-dom@18.3.1)(react@18.3.1)
+  '@types/node':
+    specifier: ^20.14.10
+    version: 20.14.10
   typescript:
     specifier: ~5.2.2
     version: 5.2.2
@@ -2974,7 +2980,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.14.10
     dev: false
 
   /@types/send@0.17.4:
