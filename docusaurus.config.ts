@@ -60,6 +60,11 @@ const config: Config = {
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         {
+          href: 'https://www.linkedin.com/in/vuchuc789',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/vuchuc789',
           label: 'GitHub',
           position: 'right',

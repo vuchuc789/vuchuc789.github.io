@@ -34,13 +34,13 @@ export default function Home(): JSX.Element {
       <main className={styles.main}>
         <div className={styles.avatarContainer}>
           <img
-            src={useBaseUrl('/img/author.jpg')}
+            src={useBaseUrl('/img/avatar.jpeg')}
             alt="Avatar"
             className={styles.avatarImage}
           />
         </div>
         <p className={`${styles.text} ${styles.description}`}>
-          I&apos;m Chuc. I&apos;m {getAge()}. I&apos;m currently working as a
+          I&apos;m Chức. I&apos;m {getAge()}. I&apos;m currently working as a
           Site Reliability Engineer at Teko Vietnam.
           <br />
           Here is where I write stuff that I know.
