@@ -21,3 +21,33 @@
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  text-align: center;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+.header {
+  padding: 1rem 5rem;
+}
+
+.main {
+  padding: 1rem 5rem;
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatarImage {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: 50% 25%;
+}

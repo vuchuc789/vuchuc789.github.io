@@ -74,6 +74,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    staticDirectories: ['static'],
   } satisfies Preset.ThemeConfig,
 };
 
