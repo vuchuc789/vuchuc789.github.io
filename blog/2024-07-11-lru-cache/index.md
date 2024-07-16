@@ -5,9 +5,6 @@ authors: chuc
 tags: [algorithm]
 ---
 
-> I started blogging with this cache algorithm because I made mistakes implementing it during my TikTok interview 😕.
-
-
 ## Introduction
 
 **What is caching?** Caching is the process of storing copies of data in temporary storage so that it can be retrieved more quickly. By having frequently accessed data readily available, caching plays a crucial role in enhancing performance and efficiency in computing systems.
