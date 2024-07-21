@@ -2,3 +2,11 @@ algorithm:
   label: Algorithm
   permalink: /algorithm
   description: My interest algorithms
+fun-fact:
+  label: Fun Fact
+  permalink: /fun-fact
+  description: Some fun facts that I found
+kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Things related to Kubernetes
